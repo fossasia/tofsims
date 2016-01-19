@@ -1,0 +1,19 @@
+########### Loading Rcpp package on all platforms ############
+
+PKG_LIBS=`Rscript -e "Rcpp:::LdFlags()"`
+PKG_CXXFLAGS=`Rscript -e "Rcpp:::CxxFlags()"`
+
+########### Loading RcppArmadillo package on Linux ############
+
+PKG_LIBS = -llapack 
+
+#PKG_LIBS = $(BLAS_LIBS) $(FLIBS) $(LAPACK_LIBS) \
+#           $(shell "Rscript" -e "Rcpp:::LdFlags()")
+## If Rcpp etc. are installed in /usr/local/lib/R/site-library
+#R_SITE=/usr/local/lib/R/site-library
+#PKG_CPPFLAGS = -I${R_HOME}/include -I${R_SITE}/Rcpp/include \
+#     -I${R_SITE}/RcppArmadillo/include  -I. -DNDEBUG
+
+## If Rcpp etc. are installed in /usr/lib/R/ use instead:
+### PKG_CPPFLAGS = -I${R_HOME}/include -I${R_HOME}/library/Rcpp/include \
+###   -I${R_HOME}/library/RcppArmadillo/include  -I. -DNDEBUG
