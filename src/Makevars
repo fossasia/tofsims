@@ -1,7 +1,7 @@
 ########### Loading Rcpp package on all platforms ############
 
-PKG_LIBS=`Rscript -e "Rcpp:::LdFlags()"`
-PKG_CXXFLAGS=`Rscript -e "Rcpp:::CxxFlags()"`
+# PKG_LIBS=`Rscript -e "Rcpp:::LdFlags()"`
+# PKG_CXXFLAGS=`Rscript -e "Rcpp:::CxxFlags()"`
 
 ########### Loading RcppArmadillo package on Linux ############
 
