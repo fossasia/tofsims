@@ -1,0 +1,38 @@
+CHANGES in Version 0.99.2 [17.01.2016]
+--------------------------------------
+SIGNIGICANT USER-VISIBLE CHANGES
+
+INTERNALS
+  - implemented match.arg instead of  which() selection
+  - updated tofsims-package file
+  - completed some roxygen/rd docs
+
+BUGFIXES
+
+
+CHANGES in Version 099.1 [19.10.2015]
+-------------------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+  - changed function behvaiour in the whole
+  package from call-by-ref to call-by value. Adjusted
+  accordingly all examples and the vignette.
+
+INTERNALS
+  - depends now on ProtGenerics from which it uses 'mz'
+  - exchanged various print() with message()
+
+BUGFIXES
+
+
+
+CHANGES in Version 0.99.0 [27.06.2015]
+--------------------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+INTERNALS
+ - Currently, the package 'KernSmooth' is stated as import as grDevices lacks the import field for it.  
+
+BUGFIXES
