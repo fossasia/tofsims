@@ -114,9 +114,9 @@ int readRawPhi(char* filename,
       unsigned long long p1 = readCertainBits(*raw, 64, 1, 10);
       unsigned long long p2 = readCertainBits(*raw, 64, 11, 21);
       unsigned long long p3 = readCertainBits(*raw, 64, 22, 32);
-      unsigned long long p4 = readCertainBits(*raw, 64, 33, 37);
+      // unsigned long long p4 = readCertainBits(*raw, 64, 33, 37);
       unsigned long long p5 = readCertainBits(*raw, 64, 38, 57);
-      unsigned long long p6 = readCertainBits(*raw, 64, 58, 64);
+      // unsigned long long p6 = readCertainBits(*raw, 64, 58, 64);
       // fprintf(lf, "%d - %lu,%lu,%lu,%lu,%lu\n", i, p1, p2, p3, p4, p5);
       if(p1 != 0)
         continue;
