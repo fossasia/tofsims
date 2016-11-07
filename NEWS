@@ -1,3 +1,14 @@
+Changes in Version 1.3.1 [07.11.2016]
+-------------------------------------
+SIGNIFICANT USER-VISIBLE CHANGES
+  - Import of Ulvac-Phi Raw data from 
+  WinCadence V1.18.0.22 is now supported
+  
+INTERNALS
+
+BUGFIXES
+
+
 CHANGES in Version 0.99.2 [17.01.2016]
 --------------------------------------
 SIGNIGICANT USER-VISIBLE CHANGES
