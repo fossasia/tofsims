@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+src/*.o
+src/*.so
+src/*.dll
+R/RcppExports.R
+src/RcppExports.cpp
+*.Rproj
+.Rbuildignore
