@@ -8,31 +8,20 @@ typedef struct {
   size_t size;
 } Array;
 
-int readRawPhi(char* filename, 
-               Array *rawdata, 
-               float slope, 
-               float intercept, 
-               int imagepixels);
+int readRawPhi(char* filename, Array *rawdata, float slope, float intercept, int imagepixels);
 void initArray(Array *a, size_t initialSize);
 void insertArray(Array *a, float element);
 void freeArray(Array *a);
-unsigned long readCertainBits(unsigned long raw, 
-                              int numOfBits, 
-                              int readFrom, 
-                              int readTo);
+unsigned long readCertainBits(unsigned long raw, int numOfBits, int readFrom, int readTo);
 
 // [[Rcpp::export]]
-NumericMatrix readRawPhiC(CharacterVector rFilename, 
-                          float rSlope, 
-                          float rIntercept, 
-                          float rImagePixels) {
+NumericMatrix readRawPhiC(CharacterVector rFilename, float rSlope, float rIntercept, float rImagePixels) {
   char* filename = rFilename[0];
   int x,y;
   x = 0;
   y = 0;
   Array rdata[3];
-  int result = readRawPhi(filename, 
-                          &rdata[0], rSlope, rIntercept, rImagePixels);
+  int result = readRawPhi(filename, &rdata[0], rSlope, rIntercept, rImagePixels);
   if(result == 0){
     NumericMatrix Rmatrix(x,y);
     return(Rmatrix);
@@ -49,10 +38,7 @@ NumericMatrix readRawPhiC(CharacterVector rFilename,
   return Rmatrix;
 }
 
-unsigned long long readCertainBits(unsigned long long raw, 
-                                   int numOfBits, 
-                                   int readFrom, 
-                                   int readTo){
+unsigned long long readCertainBits(unsigned long long raw, int numOfBits, int readFrom, int readTo) {
   unsigned long long result;
   int shift_number = numOfBits - readTo;
   result = (unsigned long long)pow(2, (readTo - readFrom + 1)) - 1;
@@ -62,12 +48,7 @@ unsigned long long readCertainBits(unsigned long long raw,
   return result;
 }
 
-int readRawPhi(char* filename, 
-               Array *rawdata, 
-               float slope, 
-               float intercept, 
-               int imagepixels)
-{
+int readRawPhi(char* filename, Array *rawdata, float slope, float intercept, int imagepixels) {
   //  FILE *lf = fopen("log.log", "wb");
   FILE *f = fopen(filename, "rb");
   if(f == NULL){
