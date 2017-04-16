@@ -71,7 +71,7 @@ int readRawPhi(char* filename,
   //  FILE *lf = fopen("log.log", "wb");
   FILE *f = fopen(filename, "rb");
   if(f == NULL){
-    printf("%s", filename);
+    //printf("%s", filename);
     perror("Error");
         // printf("\nUnable to open file.");
     return(0);
