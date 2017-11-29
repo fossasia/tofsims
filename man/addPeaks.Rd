@@ -45,4 +45,3 @@ plot(testPeakList, mzRange=c(25,32), type = 'l')
 testPeakList<-addPeaks(testPeakList, mzs=26:31, width=0.4)
 plot(testPeakList, mzRange=c(25,32), type = 'l')
 }
-

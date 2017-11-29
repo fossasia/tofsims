@@ -3,10 +3,10 @@
 \docType{methods}
 \name{removePeaks}
 \alias{removePeaks}
-\alias{removePeaks,PeakList,missing,character,numeric,missing-method}
-\alias{removePeaks,PeakList,missing,missing,missing,numeric-method}
 \alias{removePeaks,PeakList,missing,missing,numeric,missing-method}
+\alias{removePeaks,PeakList,missing,missing,missing,numeric-method}
 \alias{removePeaks,PeakList,numeric,missing,missing,missing-method}
+\alias{removePeaks,PeakList,missing,character,numeric,missing-method}
 \title{generic method removePeaks}
 \usage{
 removePeaks(object, mzs, operator, limit, nLocator, ...)
@@ -67,4 +67,3 @@ plot(testPeakList, mzRange = c(25,32), type = 'l')
 testPeakList<-removePeaks(testPeakList, mzs = 27)
 plot(testPeakList, mzRange = c(25,32), type = 'l')
 }
-

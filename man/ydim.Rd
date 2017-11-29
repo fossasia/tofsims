@@ -15,4 +15,3 @@ numeric integer, y dimension of image
 \description{
 generic accessor method for "ydim"
 }
-

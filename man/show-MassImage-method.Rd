@@ -18,4 +18,3 @@ data.frame character
 method definition 'show' on 'MassImage'
 show has a generic by default
 }
-

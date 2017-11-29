@@ -35,4 +35,3 @@ plot(testSpectra,mzRange=c(38.5,40.5),type='l')
 testSpectra <- recalibrate(testSpectra)
 plot(testSpectra, mzRange=c(38.5,40.5), type='l')
 }
-

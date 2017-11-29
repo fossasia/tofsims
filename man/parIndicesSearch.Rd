@@ -21,4 +21,3 @@ numeric indicies of time of flight
 \description{
 helper function for parallel processing in rawdata import routines
 }
-

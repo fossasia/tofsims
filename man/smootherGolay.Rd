@@ -35,4 +35,3 @@ data(tofsimsData)
 testSpectraSmooth <- smootherGolay(testSpectra, p = 3, n = 9)
 overlayPlot(list(testSpectra, testSpectraSmooth), mzRange = c(38.5, 40.5), type = 'l')
 }
-

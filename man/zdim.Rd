@@ -15,4 +15,3 @@ numeric, number of mass channels / peaks
 \description{
 generic accessor method for "zdim"
 }
-

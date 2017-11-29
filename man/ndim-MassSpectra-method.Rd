@@ -16,4 +16,3 @@ numeric value
 \description{
 method definition 'ndim' on 'MassSpectra'
 }
-

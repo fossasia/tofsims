@@ -47,4 +47,3 @@ data(tofsimsData)
 testImage<-PCAnalysis(testImage,3)
 image(analysis(testImage, 1), comp = 1)
 }
-

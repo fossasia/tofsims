@@ -50,4 +50,3 @@ testImage <- scale(testImage)
 plot(testImage,type='l')
 image(testImage)}
 }
-

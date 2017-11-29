@@ -16,4 +16,3 @@ object of class PrinComp
 \description{
 constructor for PrinComp
 }
-

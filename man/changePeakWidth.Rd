@@ -55,4 +55,3 @@ peakWidths(testPeakList)
 testPeakList<-changePeakWidth(testPeakList, selectMz = 27, lowerWidth = 0.2, upperWidth = 0.3)
 peakWidths(testPeakList)
 }
-

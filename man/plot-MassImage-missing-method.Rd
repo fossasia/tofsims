@@ -29,4 +29,3 @@ plot has no generic by default
 \details{
 This method will call \code{plot} method of \code{MassSpectra} class.
 }
-

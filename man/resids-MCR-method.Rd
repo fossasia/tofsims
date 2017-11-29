@@ -16,4 +16,3 @@ resids from object
 \description{
 MCR accessor resids,
 }
-

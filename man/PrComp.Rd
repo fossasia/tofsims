@@ -2,8 +2,8 @@
 % Please edit documentation in R/AllClassDefinition.R, R/prcomp.R
 \docType{class}
 \name{PrComp-class}
-\alias{PrComp}
 \alias{PrComp-class}
+\alias{PrComp}
 \alias{prComp}
 \title{Class PrComp}
 \usage{
@@ -37,6 +37,7 @@ into the \code{analysis} slot of the dataObject on which PCA was calculated.
 
 \item{\code{sdev}}{vector see description of \code{stats::prcomp}}
 }}
+
 \examples{
 testImage<-MassImage('dummy')
 testImage<-prComp(testImage)
@@ -50,4 +51,3 @@ image(analysis(testImage, 1), comp = 1)}
 \author{
 Lorenz Gerber <lorenz.gerber@slu.se>
 }
-

@@ -23,4 +23,3 @@ This function is used to get ITZIP property value by passing its name
 \author{
 Lorenz Gerber, Viet Mai Hoang
 }
-

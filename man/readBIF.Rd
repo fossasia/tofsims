@@ -29,4 +29,3 @@ than the \code{readBIFParallel} function.
 \author{
 Lorenz Gerber
 }
-

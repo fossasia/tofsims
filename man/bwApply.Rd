@@ -34,4 +34,3 @@ par(mfcol=c(1,2), oma=c(0,0,0,0), mar=c(0,0,0,0))
 image(testImage)
 image(bwApply(testImage, mask))
 }
-

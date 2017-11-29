@@ -21,4 +21,3 @@ imported binary raw data
 \description{
 import is the C++ code for importing iontof raw data
 }
-

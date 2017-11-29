@@ -2,6 +2,7 @@
 % Please edit documentation in R/AllClassDefinition.R, R/PCAnalysis.R
 \name{PCAnalysis}
 \alias{PCAnalysis}
+\alias{PCAnalysis}
 \title{Class PCAnalysis}
 \usage{
 PCAnalysis(dataObject, nComp, ...)
@@ -43,4 +44,3 @@ image(analysis(testImage, 1), comp = 1)}
 \author{
 Lorenz Gerber <lorenz.gerber@slu.se>
 }
-

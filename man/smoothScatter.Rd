@@ -82,4 +82,3 @@ testImage<-PCAnalysis(testImage, nComp = 4)
 smoothScatter(analysis(testImage, 1), comps = c(1,2), 
 pcType = 'pcaScores', xlab = 'comp 1', ylab = 'comp 2')
 }
-

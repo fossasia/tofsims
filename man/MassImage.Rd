@@ -2,6 +2,7 @@
 % Please edit documentation in R/AllClassDefinition.R, R/MassImage.R
 \name{MassImage}
 \alias{MassImage}
+\alias{MassImage}
 \title{Class MassImage}
 \usage{
 MassImage(select = c("ulvacbif", "iontofbif", "iontofgrdpeaks",
@@ -51,6 +52,7 @@ be provided as argument.
 \describe{
 \item{\code{xy}}{vector giving the pixel dimension of the image}
 }}
+
 \examples{
 # creating dummy data
 testImage<-MassImage('dummy')
@@ -75,4 +77,3 @@ image(rawImportedImage)
 \author{
 Lorenz Gerber <lorenz.gerber@slu.se>
 }
-

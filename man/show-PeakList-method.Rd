@@ -18,4 +18,3 @@ data.frame character
 method defining \code{show()} for the \code{MassSpectra} class
 show has a generic by default
 }
-

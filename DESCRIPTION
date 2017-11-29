@@ -22,7 +22,7 @@ LinkingTo: Rcpp, RcppArmadillo
 VignetteBuilder: knitr
 biocViews: Infrastructure, DataImport, MassSpectrometry, ImagingMassSpectrometry, Proteomics,
           Metabolomics
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 NeedsCompilation: yes
 URL: https://github.com/lorenzgerber/tofsims
 BugReports: https://github.com/lorenzgerber/tofsims/issues

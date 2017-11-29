@@ -30,4 +30,3 @@ This import function works on GRD and ITZIP format
 \author{
 Lorenz Gerber, Viet Mai Hoang
 }
-

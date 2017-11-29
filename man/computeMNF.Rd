@@ -32,4 +32,3 @@ compute MNF, helper for MNF/nnMNF
 This is a helper function for the MNF/nnMNF function and originates
 from the \code{mzImage} package.
 }
-

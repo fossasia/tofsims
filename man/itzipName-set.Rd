@@ -17,4 +17,3 @@ object with updated itzipName slot
 \description{
 generic for setter itzipName
 }
-

@@ -16,4 +16,3 @@ boolean validity check of class PCA object
 \description{
 Check NULL PCA object
 }
-

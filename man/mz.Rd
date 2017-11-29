@@ -32,4 +32,3 @@ mz(testSpectra)[1:100]
 mz(testSpectra)[1] <- 0.000025
 mz(testSpectra)[1:100]
 }
-

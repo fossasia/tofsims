@@ -16,4 +16,3 @@ RSS from object
 \description{
 MCR accessor RSS,
 }
-

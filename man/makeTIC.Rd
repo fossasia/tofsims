@@ -15,4 +15,3 @@ object of class MassSpectra with TIC
 \description{
 generic for makeTIC
 }
-

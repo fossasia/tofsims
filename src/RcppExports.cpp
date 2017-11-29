@@ -110,3 +110,20 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+
+static const R_CallMethodDef CallEntries[] = {
+    {"_tofsims_import", (DL_FUNC) &_tofsims_import, 4},
+    {"_tofsims_calibrate_ITZIP", (DL_FUNC) &_tofsims_calibrate_ITZIP, 2},
+    {"_tofsims_read_BIF", (DL_FUNC) &_tofsims_read_BIF, 2},
+    {"_tofsims_EigenDecompose", (DL_FUNC) &_tofsims_EigenDecompose, 4},
+    {"_tofsims_nnMean", (DL_FUNC) &_tofsims_nnMean, 3},
+    {"_tofsims_readRawPhiC", (DL_FUNC) &_tofsims_readRawPhiC, 4},
+    {"_tofsims_cTable", (DL_FUNC) &_tofsims_cTable, 1},
+    {"_tofsims_cParIndicesSearch", (DL_FUNC) &_tofsims_cParIndicesSearch, 4},
+    {NULL, NULL, 0}
+};
+
+RcppExport void R_init_tofsims(DllInfo *dll) {
+    R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
+    R_useDynamicSymbols(dll, FALSE);
+}

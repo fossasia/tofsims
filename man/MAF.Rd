@@ -2,6 +2,7 @@
 % Please edit documentation in R/AllClassDefinition.R, R/MAF.R
 \name{MAF}
 \alias{MAF}
+\alias{MAF}
 \title{Class MAF}
 \usage{
 MAF(dataObject, nComp = 10, usePCA = TRUE)
@@ -38,4 +39,3 @@ data(tofsimsData)
 MAF(testImage,5,TRUE)
 image(analysis(testImage,1),comp = 1)}
 }
-

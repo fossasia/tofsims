@@ -18,4 +18,3 @@ nearestNeighbourMean helper for nnMNF
 \details{
 function from mzimage to calculate nearest neighbour means
 }
-

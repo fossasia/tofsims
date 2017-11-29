@@ -15,4 +15,3 @@ content of itzipName
 \description{
 defining generic accessor method for "itzipName"
 }
-

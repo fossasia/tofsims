@@ -34,4 +34,3 @@ is unit mass binned with bins of size one from -0.5 to + 0.5.
 \author{
 Lorenz Gerber, Viet Mai Hoang
 }
-

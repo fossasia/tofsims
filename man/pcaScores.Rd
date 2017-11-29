@@ -36,4 +36,3 @@ data(tofsimsData)
 testImage<-PCAnalysis(testImage,4)
 plot(pcaScores(analysis(testImage,1), comps = c(1,2)))
 }
-

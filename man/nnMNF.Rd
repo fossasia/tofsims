@@ -2,6 +2,7 @@
 % Please edit documentation in R/AllClassDefinition.R, R/MNF.R
 \name{nnMNF}
 \alias{nnMNF}
+\alias{nnMNF}
 \title{Class nnMNF}
 \usage{
 nnMNF(dataObject, limitSNR = 1.5)
@@ -47,4 +48,3 @@ data(tofsimsData)
 testImage<-nnMNF(testImage)
 image(analysis(testImage,1), comp = 1)}
 }
-

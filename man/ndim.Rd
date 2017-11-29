@@ -15,4 +15,3 @@ contents of slot ndim
 \description{
 generic accessor method for slot ndim
 }
-

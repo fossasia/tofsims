@@ -15,4 +15,3 @@ boolean class validity test
 \description{
 Validation method functionf for class MassImage objects
 }
-

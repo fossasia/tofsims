@@ -21,4 +21,3 @@ eigval eigvec mA mB
 \description{
 EigenDecompose for the MNF analysis
 }
-

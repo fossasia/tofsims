@@ -16,4 +16,3 @@ numeric value
 \description{
 method definition 'zdim' on 'MassSpectra'
 }
-

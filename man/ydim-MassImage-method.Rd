@@ -16,4 +16,3 @@ numeric y dimension of slot xy
 \description{
 Getter, method definition "ydim" on "MassImage"
 }
-

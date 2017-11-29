@@ -19,4 +19,3 @@ numeric ID of match
 \description{
 Find single value 'toMatch' in vector 'MatchIn'
 }
-

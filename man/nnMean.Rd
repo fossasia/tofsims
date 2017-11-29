@@ -21,4 +21,3 @@ eY
 nnMean is C++ code for calculating nearest neighbour means in a 
 2D matrix
 }
-

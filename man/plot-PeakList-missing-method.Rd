@@ -36,4 +36,3 @@ data is plotted as xy plot while uncalibrated data is plotted as barplot. The pa
 \code{mzRange} allows choosing the plot range directly according to the mz number
 (when calibrated).
 }
-

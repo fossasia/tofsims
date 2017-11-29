@@ -19,4 +19,3 @@ legend.col is a helper for the plot function of Scoreplots. It
 allows to visualize a third component by a color range. legend.col
 plots the color range as legend on the side of the plot
 }
-

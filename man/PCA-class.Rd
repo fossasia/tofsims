@@ -2,8 +2,8 @@
 % Please edit documentation in R/AllClassDefinition.R
 \docType{class}
 \name{PCA-class}
-\alias{PCA}
 \alias{PCA-class}
+\alias{PCA}
 \title{Class PCA}
 \description{
 Class \code{PCA} is a virtual class for PCA that will be inherited.

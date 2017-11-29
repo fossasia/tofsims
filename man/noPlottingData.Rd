@@ -15,4 +15,3 @@ boolean validity check of PCA object
 \description{
 generic method for 'noPlottingData' aka 'is.null'
 }
-

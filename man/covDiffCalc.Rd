@@ -19,4 +19,3 @@ shifted cov matrix
 covDiffCalc calculates a x/y shift covariance matrix of a multispectral
 image according to Switzer and Green 1984.
 }
-

@@ -45,4 +45,3 @@ testSpectra <- unitMassPeaks(testSpectra, mzRange = c(1,200), widthAt = c(15, 18
 factor = c(0.4, 0.6), lower = c(14.97, 15.05), upper = c(180.84, 181.43))
 plot(testSpectra, mzRange = c(1,200), type = 'l')
 }
-

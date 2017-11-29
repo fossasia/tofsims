@@ -15,4 +15,3 @@ content of slot resids
 \description{
 generic accessor method for resids
 }
-

@@ -25,4 +25,3 @@ computeNoise determinates the noise by nearest neighbour estimate.
 This is a helper function for the nnMNF method and originates 
 from the \code{mzImage} package.
 }
-

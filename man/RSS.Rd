@@ -15,4 +15,3 @@ content of slot RSS
 \description{
 generic accessor for RSS
 }
-

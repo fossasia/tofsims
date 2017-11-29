@@ -59,4 +59,3 @@ testPeakList<-findPeakWidth(testPeakList, p = 3, n = 199,
 span = 100, widthExtLower = 2, widthExtUpper = 2)
 plot(testPeakList, mzRange=c(25,32), type = 'l')
 }
-

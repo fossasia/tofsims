@@ -45,4 +45,3 @@ data("tofsimsData")
 plot(testImage, type='l', normalize = TRUE, col = 'blue')
 points(testSpectra, type = 'l', normalize = TRUE, col = 'red')
 }
-

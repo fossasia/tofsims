@@ -17,4 +17,3 @@ principal component analysis
 \description{
 helper function for MAF calculation
 }
-

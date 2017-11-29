@@ -35,4 +35,3 @@ testSpectra<-peakPick(testSpectra, span = 100)
 testSpectra<-addFixedWidth(testSpectra, 0.2, 0.2)
 plot(testSpectra, , mzRange=c(38.5,40.5), type = 'l')
 }
-

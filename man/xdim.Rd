@@ -15,4 +15,3 @@ numeric value x dimension of mass image
 \description{
 generic accessor method for "xdim"
 }
-

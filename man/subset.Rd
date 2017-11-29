@@ -38,4 +38,3 @@ data(tofsimsData)
 subsetTestImage<-subset(testImage, xyUpperLeft = c(1,1), xyLowerRight = c(50,50))
 image(subsetTestImage)
 }
-

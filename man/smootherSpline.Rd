@@ -36,4 +36,3 @@ data(tofsimsData)
 testSpectraSmooth <- smootherSpline(testSpectra)
 overlayPlot(list(testSpectra, testSpectraSmooth), mzRange = c(38.5, 40.5), type = 'l')
 }
-

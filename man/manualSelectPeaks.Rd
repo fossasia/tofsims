@@ -19,4 +19,3 @@ numeric x coordinates
 \description{
 This method is base method for plotting and manual select data
 }
-

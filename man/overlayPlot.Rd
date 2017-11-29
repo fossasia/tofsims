@@ -44,4 +44,3 @@ overlayPlot(list(testImage, testSpectra))
 \author{
 Lorenz Gerber \email{lorenz.gerber@slu.se}
 }
-

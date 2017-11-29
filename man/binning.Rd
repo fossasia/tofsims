@@ -45,4 +45,3 @@ image(testImage)
 testImage <- binning(testImage,binningFactor = 4)
 image(testImage)}
 }
-

@@ -38,4 +38,3 @@ data(tofsimsData)
 testImage<-PCAnalysis(testImage,4)
 plot(pcaLoadings(analysis(testImage,1), comps = c(1,2)))
 }
-

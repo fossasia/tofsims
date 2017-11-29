@@ -16,4 +16,3 @@ object of class MassSpectra with just one spectra, the TIC
 \description{
 Method makeTIC sums up all Mass Spectra in the called Mass Spectra object
 }
-

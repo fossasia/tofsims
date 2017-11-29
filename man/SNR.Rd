@@ -22,4 +22,3 @@ SNR function for MNF to calculate Signal to Noise Ratio
 \details{
 function from mzimage to calculate signal-to-noise ratio function
 }
-

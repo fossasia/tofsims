@@ -2,6 +2,7 @@
 % Please edit documentation in R/AllClassDefinition.R, R/MNF.R
 \name{MNF}
 \alias{MNF}
+\alias{MNF}
 \title{Class MNF}
 \usage{
 MNF(dataObject)
@@ -46,4 +47,3 @@ data(tofsimsData)
 MNF(testImage)
 image(analysis(testImage,1), comp = 1)}
 }
-

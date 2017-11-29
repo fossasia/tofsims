@@ -38,4 +38,3 @@ plot(testSpectra, mzRange = c(38.5, 40.5), type = 'l')
 testSpectra<-peaks2Spectra(peakPickSpectra, testSpectra)
 plot(testSpectra, mzRange = c(38.5, 40.5), type = 'l')
 }
-

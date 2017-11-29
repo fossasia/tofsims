@@ -38,4 +38,3 @@ plot(spectra100100, type = 'l')
 \author{
 Lorenz Gerber <lorenz.gerber@slu.se>
 }
-

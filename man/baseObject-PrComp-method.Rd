@@ -16,4 +16,3 @@ object of class PrComp
 \description{
 constructor for PrComp
 }
-

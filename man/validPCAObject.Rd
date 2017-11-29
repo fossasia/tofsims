@@ -15,4 +15,3 @@ boolean class validity test
 \description{
 Validation method function for class PCA objects
 }
-

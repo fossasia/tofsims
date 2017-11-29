@@ -16,4 +16,3 @@ vector numeric
 \description{
 method dim for MassImage
 }
-

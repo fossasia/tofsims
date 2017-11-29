@@ -29,4 +29,3 @@ data(tofsimsData)
 timeOfFlight <- getTOFs(testSpectra)
 head(timeOfFlight)
 }
-

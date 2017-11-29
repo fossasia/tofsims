@@ -41,4 +41,3 @@ plot(testSpectra,mzRange = c(40,50),type='l')
 testSpectra <- reduceSpectrumResolution(object = testSpectra, everyN = 2, mode = 'remove')
 plot(testSpectra, mzRange = c(40,50), type='l')
 }
-

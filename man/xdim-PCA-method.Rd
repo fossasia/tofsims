@@ -16,4 +16,3 @@ numeric x dimension of image
 \description{
 method xdim() for PCA class object
 }
-

@@ -2,8 +2,8 @@
 % Please edit documentation in R/AllClassDefinition.R, R/MCR.R
 \docType{class}
 \name{MCR-class}
-\alias{MCR}
 \alias{MCR-class}
+\alias{MCR}
 \alias{opaMCR}
 \title{Class MCR}
 \usage{
@@ -44,6 +44,7 @@ becomes unreasonably high.
 
 \item{\code{iters}}{numeric number of iterations}
 }}
+
 \examples{
 testImage<-MassImage('dummy')
 testImage<-opaMCR(testImage, 2, 2)
@@ -58,4 +59,3 @@ image(analysis(testImage,1), comp = 1)
 \author{
 Lorenz Gerber <lorenz.gerber@slu.se>
 }
-

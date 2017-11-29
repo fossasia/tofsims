@@ -29,4 +29,3 @@ data(tofsimsData)
 testImage<-PCAnalysis(testImage,4)
 nComp(analysis(testImage,1))
 }
-

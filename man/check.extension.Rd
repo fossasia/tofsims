@@ -23,4 +23,3 @@ This function is used for check the file extension
 \author{
 Lorenz Gerber, Viet Mai Hoang
 }
-

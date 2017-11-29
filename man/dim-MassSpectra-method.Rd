@@ -18,4 +18,3 @@ numeric value
 method definition 'dim' for 'MassSpectra'
 dim is a primitive
 }
-

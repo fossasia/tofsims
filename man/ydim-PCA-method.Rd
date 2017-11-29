@@ -16,4 +16,3 @@ numeric y dimension of image
 \description{
 method ydim() for PCA class object
 }
-

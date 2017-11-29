@@ -17,4 +17,3 @@ updated object of type MassImage
 \description{
 generic setter method for "ydim"
 }
-

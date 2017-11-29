@@ -17,4 +17,3 @@ object of class MassImage with updated x dimension
 \description{
 generic setter method for "xdim"
 }
-

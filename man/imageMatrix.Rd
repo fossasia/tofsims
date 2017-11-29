@@ -40,4 +40,3 @@ dim(dataMatrix)
 ## normal image() function
 image(dataMatrix)
 }
-

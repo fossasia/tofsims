@@ -27,4 +27,3 @@ a helper function for read.raw.phi.
 \author{
 Lorenz Gerber
 }
-

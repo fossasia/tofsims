@@ -26,4 +26,3 @@ LapackGenEigen is adapted from the \code{mzImage} package. While
 it initially used dsygvx from the \code{LAPACK} library, it is now
 ported to \code{RcppArmadillo}, using the \code{eig_pair} function.
 }
-

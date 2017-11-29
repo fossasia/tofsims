@@ -23,4 +23,3 @@ coordToPixel translates xy coordinates from the locator() function
 to cell coordinates from the image function. Origo is according to
 ToF-SIMS images the upper left corner.
 }
-

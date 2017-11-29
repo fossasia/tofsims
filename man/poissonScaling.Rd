@@ -55,4 +55,3 @@ image(testImage)
 \author{
 Lorenz Gerber \email{lorenz.gerber@slu.se}
 }
-

@@ -41,4 +41,3 @@ testSpectra <- smootherGolay(testSpectra, p = 3, n = 5)
 testSpectra <- peakPick(testSpectra, span = 100)
 plot(testSpectra, , mzRange=c(38.5,40.5), type = 'l')
 }
-
